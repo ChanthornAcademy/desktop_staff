@@ -1,0 +1,17 @@
+{
+  "name": "desktop_staff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Staff2 --out=dist --icon=./assets/favicon-196.ico"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.0.0",
+    "electron-packager": "^15.4.0"
+  }
+}
